@@ -71,7 +71,7 @@ onSubmit: async ({ value }) => {
     );
 
     // Fetch the latest accommodations from backend
-    await dispatch(getAllAccomodation());
+     dispatch(getAllAccomodation());
 
     toast.success("New Property Created Successfully");
 
