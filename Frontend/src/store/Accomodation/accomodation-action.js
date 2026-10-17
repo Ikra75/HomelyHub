@@ -1,4 +1,4 @@
-import { accomodationActions } from "./accomodation-slice.js";
+import { accomodationActions } from "./Accomodation-slice.js";
 import { axiosInstance } from "../../utils/axios.js";
 
 export const createAccomodation = (accomodationData) => async (dispatch) => {
